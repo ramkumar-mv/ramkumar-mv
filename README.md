@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @rathoreRam
 - 👀 I’m interested in ... Embedded Systems, Machine learning 
-- 🌱 I’m currently learning ... Python and C
 - 💞️ Love to work and achieve in this tech world
 - 📫 Budding Techineer  
 
