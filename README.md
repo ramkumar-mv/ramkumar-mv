@@ -78,9 +78,3 @@
 - **Deepfake Classifier**: Developed a custom 30-layer CNN for detecting deepfake images.
 - **Plant Disease Prediction**: Deployed a Raspberry Pi-based plant disease predictor with 94% accuracy.
 - **User-Adaptive Bubble Tube**: Created an IoT-powered therapy tool for autistic children, adjusting based on real-time feedback.
-
----
-
-### 📫 Get in Touch
-- **Email**: [ramkumar.vallimayil@gmail.com](mailto:ramkumar.vallimayil@gmail.com)
-- **LinkedIn**: [linkedin.com/in/ramkumar-mv](https://www.linkedin.com/in/ramkumar-mv/)
