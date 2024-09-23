@@ -45,7 +45,6 @@
   ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
   ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apache-hadoop&logoColor=white)
   ![Snowflake](https://img.shields.io/badge/Snowflake-29B6F6?style=for-the-badge&logo=snowflake&logoColor=white)
-  ![RASPBERRY PI](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ---
 
