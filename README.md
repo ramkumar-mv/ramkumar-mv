@@ -10,6 +10,9 @@
   <a href="https://www.hackerrank.com/ramkumarmv">
     <img src="https://img.shields.io/badge/Hackerrank-ramkumarmv-2EC866?style=for-the-badge&logo=hackerrank">
   </a>
+  <a href="https://ramkumar-mv.netlify.app/">
+    <img src="https://img.shields.io/badge/Portfolio-ramkumar--mv-green?style=for-the-badge&logo=netlify">
+  </a>
 </p>
 
 ---
@@ -26,7 +29,8 @@
 ### 🛠️ Skills
 - **Languages & Frameworks**:  
   ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
-  ![SQL](https://img.shields.io/badge/SQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) 
+  ![SQL](https://img.shields.io/badge/SQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+  ![Embedded C](https://img.shields.io/badge/Embedded_C-00599C?style=for-the-badge&logo=c&logoColor=white)
   ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
   ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
   
@@ -41,6 +45,7 @@
   ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
   ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apache-hadoop&logoColor=white)
   ![Snowflake](https://img.shields.io/badge/Snowflake-29B6F6?style=for-the-badge&logo=snowflake&logoColor=white)
+  ![RASPBERRY PI](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ---
 
