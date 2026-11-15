@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="44" viewBox="0 0 760 44" role="img" aria-label="Pretraining and fine-tuning, distributed training, custom kernels, quantization, reproducible numbers">
+  <style>
+    text { font: 500 20px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #76b900; opacity: 0;
+           animation: cycle 20s infinite; }
+    .l2 { animation-delay: 4s; } .l3 { animation-delay: 8s; } .l4 { animation-delay: 12s; } .l5 { animation-delay: 16s; }
+    @keyframes cycle {
+      0%   { opacity: 0; clip-path: inset(0 100% 0 0); }
+      2%   { opacity: 1; }
+      10%  { clip-path: inset(0 0 0 0); }
+      18%  { opacity: 1; clip-path: inset(0 0 0 0); }
+      20%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+  </style>
+  <text class="l1" x="380" y="29" text-anchor="middle">Pretraining • SFT • LoRA/QLoRA • DPO/GRPO</text>
+  <text class="l2" x="380" y="29" text-anchor="middle">Mixed precision • FSDP • FlashAttention • torch.compile</text>
+  <text class="l3" x="380" y="29" text-anchor="middle">Custom Triton/CUDA kernels on consumer Blackwell</text>
+  <text class="l4" x="380" y="29" text-anchor="middle">Quantization • FP8 • NVFP4 • vLLM serving</text>
+  <text class="l5" x="380" y="29" text-anchor="middle">No table, no claim: every number is reproducible</text>
+</svg>

@@ -1,9 +1,9 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:76b900&height=190&section=header&text=Ramkumar%20M%20V&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Efficient%20training%20%26%20inference%20for%20foundation%20models&descSize=16&descAlignY=58" alt="Ramkumar M V"/>
+  <img width="100%" src="assets/header.svg" alt="Ramkumar M V: model training and GPU optimization"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=76B900&center=true&vCenter=true&width=720&lines=Quantization+%E2%80%A2+FP8+%E2%80%A2+NVFP4+%E2%80%A2+INT4+AWQ%2FGPTQ;Custom+Triton+kernels+on+consumer+Blackwell;Faster+serving+with+vLLM+%2B+Triton+Inference+Server;No+table%2C+no+claim%3A+every+number+is+reproducible" alt="Typing animation of focus areas"/>
+  <img src="assets/focus.svg" alt="Pretraining, fine-tuning, distributed training, custom kernels, quantization"/>
 </p>
 
 <p align="center">
@@ -13,35 +13,46 @@
 
 ---
 
-**Head of AI Research.** I work on **foundation models, Indic speech/TTS, and GPU inference serving** (Triton, vLLM).
+**Head of AI Research.** I work across the full model lifecycle: **training foundation models** and making them
+**run fast on GPUs**.
 
-On GitHub I publish **measured** work on making models cheaper to train and faster to serve. Every repo ships with
-a benchmark script, the hardware it ran on, and the raw numbers.
+On GitHub I publish **measured** work on training models efficiently and squeezing performance out of GPUs.
+Every repo ships with a benchmark script, the hardware it ran on, and the raw numbers.
 
 ### 🔬 What I'm building
 
 | Repo | What it does | Status |
 |---|---|---|
-| [**quantbench**](https://github.com/ramkumar-mv/quantbench) | Reproducible LLM quantization benchmarks (FP16 / INT8 / INT4 AWQ·GPTQ / FP8 / NVFP4) on consumer GPUs. Latency, throughput, memory, and quality loss in one harness | 🚧 active |
-| **streaming-indic-tts** | Making open TTS models real-time on cheap GPUs: time-to-first-audio, RTF, and quality under quantization | 📋 planned |
+| [**quantbench**](https://github.com/ramkumar-mv/quantbench) | Reproducible LLM quantization benchmarks (FP16 / INT8 / INT4 AWQ·GPTQ / FP8 / NVFP4): latency, throughput, memory and quality loss in one harness | 🚧 active |
+| **pretrain-16gb** | Pretraining a small GPT from scratch on one 16 GB GPU, with an ablation of every speed trick (bf16/FP8, FlashAttention, torch.compile, fused optimizers) measured in tokens/s and MFU | 📋 planned |
+| **finetune-lab** | SFT, LoRA / QLoRA / DoRA and DPO / GRPO compared head-to-head on public data: VRAM, step time and eval quality | 📋 planned |
+| **blackwell-kernels** | Hand-written Triton kernels (fused dequant-GEMM, FP8 GEMM, RMSNorm+quant) benchmarked against cuBLAS and PyTorch | 📋 planned |
 
-### 🎯 Focus areas
+### 🧠 Model training
 
 | | |
 |---|---|
-| ⚡ **Inference optimization** | quantization, custom Triton/CUDA kernels, KV-cache tricks, speculative decoding, batching |
-| 🧪 **Efficient fine-tuning** | LoRA-family methods and memory-saving tricks |
-| 🔊 **Speech efficiency** | streaming TTS/ASR on low-cost hardware |
-| 📏 **Evaluation** | reproducible benchmark harnesses, uncertainty and abstention evals |
-| 🤝 **Upstream** | fixes and features for vLLM, llama.cpp, HF Transformers/PEFT, Unsloth |
+| 🏗️ **Pretraining** | data pipelines, tokenizers, scaling small LMs, training stability |
+| 🎛️ **Fine-tuning** | full SFT, LoRA / QLoRA / DoRA, instruction tuning |
+| 🎯 **Alignment** | DPO, ORPO, GRPO / RL-style post-training |
+| 🌐 **Distributed & memory** | FSDP / DeepSpeed ZeRO, gradient checkpointing, mixed precision (bf16 / FP8), 8-bit optimizers |
+
+### ⚡ GPU optimization
+
+| | |
+|---|---|
+| 🧩 **Kernels** | custom Triton / CUDA kernels, FlashAttention, kernel fusion, torch.compile |
+| 🗜️ **Quantization** | INT8 / INT4 (AWQ, GPTQ, GGUF), FP8, NVFP4 |
+| 🚀 **Inference serving** | vLLM, TensorRT-LLM, Triton Inference Server, KV-cache tricks, speculative decoding, batching |
+| 🔍 **Profiling** | Nsight Systems / Compute, roofline analysis, MFU and memory-bandwidth accounting |
 
 ### 🛠️ Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=py,pytorch,cpp,docker,linux,git,githubactions&theme=dark" alt="Skill icons"/>
+  <img src="https://skillicons.dev/icons?i=py,pytorch,cpp,docker,linux,git,githubactions&theme=dark" alt="Python, PyTorch, C++, Docker, Linux, Git, GitHub Actions"/>
 </p>
 
-`Triton` · `CUDA` · `vLLM` · `TensorRT-LLM` · `Triton Inference Server` · `HF Transformers / PEFT` · `llama.cpp`
+`Triton` · `CUDA` · `DeepSpeed` · `FSDP` · `HF Transformers / PEFT / TRL` · `vLLM` · `TensorRT-LLM` · `llama.cpp`
 
 ### 🧭 Background
 - B.Tech, E.C.E., SRM Institute of Science and Technology (CGPA 9.58/10)
@@ -52,7 +63,3 @@ a benchmark script, the hardware it ran on, and the raw numbers.
 - Report quality loss next to every speedup
 - Built only on public models and public data
 - All experiments run on my own personal workstation (RTX 5070 Ti 16 GB)
-
-<p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:76b900,100:0d1117&height=110&section=footer" alt=""/>
-</p>
