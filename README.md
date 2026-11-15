@@ -1,81 +1,36 @@
-<h1 align="center">Hi there, I'm Ramkumar M V 👋</h1>
+<h1 align="center">Hi, I'm Ramkumar M V (RK) 👋</h1>
 
 <p align="center">
-  <a href="https://github.com/ramkumar-mv">
-    <img src="https://img.shields.io/badge/GitHub-ramkumar--mv-181717?style=for-the-badge&logo=github">
-  </a>
-  <a href="https://www.linkedin.com/in/ramkumar-mv/">
-    <img src="https://img.shields.io/badge/LinkedIn-ramkumar--mv-blue?style=for-the-badge&logo=linkedin">
-  </a>
-  <a href="https://www.hackerrank.com/ramkumarmv">
-    <img src="https://img.shields.io/badge/Hackerrank-ramkumarmv-2EC866?style=for-the-badge&logo=hackerrank">
-  </a>
-  <a href="https://ramkumar-mv.netlify.app/">
-    <img src="https://img.shields.io/badge/Portfolio-ramkumar--mv-green?style=for-the-badge&logo=netlify">
-  </a>
-</p>
+  <a href="https://www.linkedin.com/in/ramkumar-mv/"><img src="https://img.shields.io/badge/LinkedIn-ramkumar--mv-blue?style=flat-square&logo=linkedin"></a></p>
 
----
+**Head of AI Research.** I work on **foundation models, Indic speech/TTS, and GPU inference serving** (Triton, vLLM).
 
-### 🧑‍💻 About Me
+On GitHub I publish **measured** work on making models cheaper to train and faster to serve. Every repo ships with
+a benchmark script, the hardware it ran on, and the raw numbers. If there's no table, I don't make the claim.
 
-- 🎓 **B.Tech Graduate** in E.C.E from **SRM Institute of Science and Technology** (CGPA: 9.58/10).
-- 🌐 **Global Experience**: Internships at MITACS (Canada) & NUS (Singapore).
-- 🔍 Passionate about **AI, ML, IoT**, and **Computer Vision** with a focus on **real-world solutions**.
-- 📖 Published work on **Adaptive LSTM Forecasting** and **YOLO-v9 Quantum CNN for ANPR**.
+### 🔬 What I'm building
 
----
+| Repo | What it does | Status |
+|---|---|---|
+| [**quantbench**](https://github.com/ramkumar-mv/quantbench) | Reproducible LLM quantization benchmarks (FP16 / INT8 / INT4 AWQ·GPTQ / FP8 / NVFP4) on consumer GPUs. Latency, throughput, memory, and quality loss in one harness | 🚧 active |
+| **streaming-indic-tts** | Making open TTS models real-time on cheap GPUs: time-to-first-audio, RTF, and quality under quantization | 📋 planned |
 
-### 🛠️ Skills
-- **Languages & Frameworks**:  
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
-  ![SQL](https://img.shields.io/badge/SQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-  ![Embedded C](https://img.shields.io/badge/Embedded_C-00599C?style=for-the-badge&logo=c&logoColor=white)
-  ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-  ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-  
-- **Tools**:  
-  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-  ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-  ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-  
-- **Other Tech**:  
-  ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-  ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-  ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apache-hadoop&logoColor=white)
-  ![Snowflake](https://img.shields.io/badge/Snowflake-29B6F6?style=for-the-badge&logo=snowflake&logoColor=white)
-  ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white)
+### 🎯 Focus areas
+- **Inference optimization:** quantization, custom Triton/CUDA kernels, KV-cache tricks, speculative decoding, batching
+- **Efficient fine-tuning:** LoRA-family methods and memory-saving tricks
+- **Speech efficiency:** streaming TTS/ASR on low-cost hardware
+- **Evaluation:** reproducible benchmark harnesses, uncertainty and abstention evals
+- **Upstream:** fixes and features for vLLM, llama.cpp, HF Transformers/PEFT, Unsloth
 
+### 🛠️ Stack
+`PyTorch` · `Triton` · `CUDA` · `vLLM` · `TensorRT-LLM` · `Triton Inference Server` · `HF Transformers / PEFT` · `llama.cpp` · `Docker`
 
----
+### 🧭 Background
+- B.Tech, E.C.E., SRM Institute of Science and Technology (CGPA 9.58/10)
+- AI/ML Associate, IIT Madras · ML Intern, MITACS Globalink (Toronto) · Global Academic Intern, NUS (Singapore)
 
-### 🏢 Experience
-
-- **AI/ML Associate** | IIT Madras - June 2024 - Present  
-  *Developed home automation & security systems for IOCL using machine learning.*
-
-- **Machine Learning Intern** | MITACS Globalink, Toronto, Canada - Jun 2023 - Sep 2023  
-  *Worked on reducing carbon emissions through IoT and ML solutions.*
-
-- **Global Academic Intern** | NUS, Singapore - Dec 2022 - Apr 2023  
-  *Led VGG-based retail prediction system with hand gesture detection.*
-
-- **Computer Vision Intern** | Airdonex Technologies Pvt Ltd, Chennai, India - Nov 2022 - Mar 2023  
-  *Enhanced drone landing systems using OpenCV & MAVLink technologies.*
-
----
-
-### 📚 Publications
-
-- **Adaptive LSTM Forecasting for RO Membrane Fault Detection** (IEEE Xplore)
-- **Crop Care AI: The Smart Farming Revolution** (ICCIS 2024)
-- **YOLO-v9 and Quantum-Enhanced CNN for License Plate Recognition** (IEEE Xplore)
-
----
-
-### 🧑‍🔬 Projects
-
-- **Deepfake Classifier**: Developed a custom 30-layer CNN for detecting deepfake images.
-- **Plant Disease Prediction**: Deployed a Raspberry Pi-based plant disease predictor with 94% accuracy.
-- **User-Adaptive Bubble Tube**: Created an IoT-powered therapy tool for autistic children, adjusting based on real-time feedback.
+### 📐 Principles
+- Reproducible or it didn't happen: pinned deps, scripts, hardware, raw numbers
+- Report quality loss next to every speedup
+- Built only on public models and public data
+- All experiments run on my own personal workstation (RTX 5070 Ti 16 GB)
